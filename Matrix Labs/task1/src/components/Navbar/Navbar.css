@@ -1,0 +1,145 @@
+.navbar{
+    width: 288px;
+    height: 1000px;
+    top:1px;
+    background-color: #292929;
+    border-top-left-radius: 0px 32px 32px 0px;
+   
+}
+
+.mobile-navbar{
+    display: none;
+}
+.mobile-menu-links{
+    display:none;
+}
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    .mobile-navbar{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        background-image:url('../../pages/TokenPage/images/banner.png') ;
+        box-sizing: border-box;
+    }
+    .mobile-brand-name{
+        font-size: 16px;
+        font-family: 'Pacifico', sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        color: white;
+    }
+    .hamburger-icon{
+        color:white;
+        margin-right:10px;
+        margin-top:4px;
+    }
+    .connect-button{
+        margin-left: 200px;
+        width: 156px;
+        height: 52px;
+        border-radius: 20px;
+        
+        line-height: 28px;
+        font-size: 18px;
+        font-family: 'Poppins',sans-serif;
+        background-image: linear-gradient(to right, #7C0F35 ,#581266);
+        color: white;
+    }
+    .mobile-menu-links{
+        display: block;
+        text-align: center;
+        
+    }
+    .mobile-menu-links>a{
+        display: block;
+        padding: 20px 0;
+        text-decoration: none;
+        color: white;
+        background-color:#292929 ;
+        font-family: 'Work Sans',sans-serif;
+    }
+    .mobile-menu-links>a:hover{
+        background-color: #F30050;
+    }
+
+}
+
+.nav-header{
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.brand-name{
+    position: absolute;
+    flex: 1;
+    width: 106px;
+    height: 56px;
+    top: 16px;
+    left: 85px;
+    color: white;
+    font-family: 'Pacifico' , sans-serif;
+    font-size: 32px;
+}
+.nav-icon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    flex: 1;
+    top: 30px;
+    left: 35px;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.nav-links >  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+}
+
+.nav-links > a:active , .nav-links > a:focus  , .nav-links > a:hover{
+    background-color:  #F30050;
+;
+}
+
+.link-text{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 20px;
+}
+.nav-link-icon{
+    margin-left: 22px;
+}
+
+
+.social-links{
+    position: absolute;
+    bottom: 0;
+    margin: 0 20px 20px 20px;
+    
+}
+
+.social-icon{
+    margin: 0 10px;
+}
+
+
+
+
+
+
