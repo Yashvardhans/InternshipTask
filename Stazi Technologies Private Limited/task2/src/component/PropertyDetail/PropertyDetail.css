@@ -1,0 +1,10 @@
+
+.property-detail{
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Nunito sans",sans-serif;
+    color: rgb(1, 1, 55);
+}
+.property-item{
+    margin: 0 auto;
+}

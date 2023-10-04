@@ -1,0 +1,20 @@
+.home-container{
+    text-align: center;
+    
+}
+.home-header{
+    margin: 5% 0;
+    font-family: 'Nunito Sans' , sans-serif;
+}
+
+.home-title{
+    font-size: 48px;
+    color: rgb(3, 3, 60);
+    font-weight: 600;
+}
+.home-header > p{
+    height: auto;
+    max-width: 500px;
+    margin:  2% auto;
+    font-weight: 600;
+}

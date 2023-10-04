@@ -1,0 +1,25 @@
+.pagination {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 6%;
+  border-radius: 25px;
+  font-family: "Nunito Sans";
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  padding: 25px;
+  background-color: #d6e6f2;
+  border: 1px solid white;
+}
+
+.page-number > a {
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 10px;
+  background-color: #ebf3ff;
+  border: none;
+}
