@@ -6,11 +6,7 @@ A simple car rental web application built using React.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
+-[Pages Overview](#pagesoverview)
 ## Introduction
 
 This is a web application that allows users to browse and rent cars. It provides a user-friendly interface for searching, viewing car details, and renting cars. The application is built with React and uses React Router for navigation.
@@ -26,9 +22,35 @@ This is a web application that allows users to browse and rent cars. It provides
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this project locally after cloning the repository run these commands:
 
-1. Clone the repository to your local machine:
+`cd your-app`
+Install the dependenceis
+```
+npm install
+# or
+yarn install
+```
+Start the Server
+```
+npm start
+# or
+yarn start
+```
+## Pages Overview
 
-   ```bash
-   git clone https://github.com/yourusername/car-rental-app.git
+- **Home Page:**
+  - Displays a list of available cars for rent.
+  - Allows users to search for cars by name.
+  - Provides pagination to navigate through the list of cars.
+
+- **Car Details Page:**
+  - Displays comprehensive information about a specific car.
+  - Includes details such as the car's name, model year, seats, fuel type, mileage, gear type,      and rent price.
+  
+
+
+
+
+
+
