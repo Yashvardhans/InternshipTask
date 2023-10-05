@@ -6,7 +6,7 @@ A simple car rental web application built using React.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
--[Pages Overview](#pagesoverview)
+- [Pages Overview](#pages-overview)
 ## Introduction
 
 This is a web application that allows users to browse and rent cars. It provides a user-friendly interface for searching, viewing car details, and renting cars. The application is built with React and uses React Router for navigation.
@@ -24,7 +24,7 @@ This is a web application that allows users to browse and rent cars. It provides
 
 To run this project locally after cloning the repository run these commands:
 
-`cd your-app`
+```cd your-app```
 Install the dependenceis
 ```
 npm install
